@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
-              android:orientation="vertical" 
-              android:layout_width="match_parent" 
-              android:layout_height="match_parent">
-  <Button android:id="@+id/myButton" 
-          android:layout_width="match_parent" 
-          android:layout_height="wrap_content" 
-          android:text="@string/hello" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#063D3D">
+  <TextView
+        android:text="Enter url"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="10px"
+        android:textSize="20dp"
+        android:textColor="#4CCDCD"/>
+    <EditText
+        android:text="https://www.skyrise.tech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10px"
+        android:background="#003333"
+        android:textColor="#4CCDCD"
+        android:id="@+id/linkToParse" />
+    <Button
+        android:id="@+id/webRequestBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25px"
+        android:text="Send Request" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#106E6E"
+        android:id="@+id/listView" />
 </LinearLayout>

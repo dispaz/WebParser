@@ -2,4 +2,10 @@
 <resources>
   <string name="hello">Hello World, Click Me!</string>
   <string name="app_name">WebParser</string>
+  <string-array name="charts_array">
+    <item>Line</item>
+    <item>Donut</item>
+    <item>Radial Gauge</item>
+    <item>Bar</item>
+  </string-array>
 </resources>

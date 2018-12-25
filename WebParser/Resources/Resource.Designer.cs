@@ -26,6 +26,23 @@ namespace WebParser
 		
 		public static void UpdateIdValues()
 		{
+			global::Microcharts.Droid.Resource.String.library_name = global::WebParser.Resource.String.library_name;
+		}
+		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int charts_array = 2131034112;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
 		}
 		
 		public partial class Attribute
@@ -44,8 +61,32 @@ namespace WebParser
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			// aapt resource value: 0x7f060002
+			public const int barChartView = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int chartSpinner = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int fragmentContainer = 2131099648;
+			
+			// aapt resource value: 0x7f060003
+			public const int linkToParse = 2131099651;
+			
+			// aapt resource value: 0x7f060005
+			public const int listView = 2131099653;
+			
+			// aapt resource value: 0x7f060008
+			public const int myExpandableListview = 2131099656;
+			
+			// aapt resource value: 0x7f060007
+			public const int parsedDataText = 2131099655;
+			
+			// aapt resource value: 0x7f060006
+			public const int titleParsedData = 2131099654;
+			
+			// aapt resource value: 0x7f060004
+			public const int webRequestBtn = 2131099652;
 			
 			static Id()
 			{
@@ -61,7 +102,22 @@ namespace WebParser
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int activity_layout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int charts_layout = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int parent_parsed_data_layout = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int parsed_data_row = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int parseddata_layout = 2130903045;
 			
 			static Layout()
 			{
@@ -92,11 +148,14 @@ namespace WebParser
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
+			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int hello = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
